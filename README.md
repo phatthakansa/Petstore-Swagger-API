@@ -22,8 +22,8 @@ response code meaning
 
 | response code      | Picture                    |
 |--------------------|----------------------------|
-| 200                | ![200](get-pet-200.png)  |
-| 404                | ![404](get-pet-404.png)  |
+| 200                | ![200](picture/get-pet-200.png)  |
+| 404                | ![404](picture/get-pet-404.png)  |
 
 ### 2. GET: /store/order/{orderId}
 - **Description:** Get order details by ID
@@ -31,8 +31,8 @@ response code meaning
 
 | response code      | Picture                    |
 |--------------------|----------------------------|
-| 200                | ![200](get-order-200.png)  |
-| 404                | ![404](get-order-404.png)  |
+| 200                | ![200](picture/get-order-200.png)  |
+| 404                | ![404](picture/get-order-404.png)  |
 
 ### 3. POST: /user
 - **Description:** Create a new user
@@ -51,6 +51,6 @@ response code meaning
 ```
 | response code      | Picture                    |
 |--------------------|----------------------------|
-| 200                | ![200](get-order-200.png)  |
-| 400                | ![400](post-user-400.png)  |
-| 500                | ![500](post-user-500.png)  |
+| 200                | ![200](picture/get-order-200.png)  |
+| 400                | ![400](picture/post-user-400.png)  |
+| 500                | ![500](picture/post-user-500.png)  |
