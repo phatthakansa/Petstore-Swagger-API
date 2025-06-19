@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "94a130d1-099a-411f-8f02-4b6b775209e6",
+		"name": "Phatthakan_Postman_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44525795"
+	},
+	"item": [
+		{
+			"name": "GET: /pet/{penId}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/2",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET: /store/order/{orderId}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/store/order/10",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"store",
+						"order",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST: /user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"username\": \"Phat\",\r\n  \"firstName\": \"Phatthakan\",\r\n  \"lastName\": \"Satariyaratkul\",\r\n  \"email\": \"phatthakansa@gmail.com\",\r\n  \"password\": \"123456\",\r\n  \"phone\": \"1234567890\",\r\n  \"userStatus\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/user",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
